@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<link rel="stylesheet" href="css/style.css">
+  <script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/TMForm.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/camera.js"></script>
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('.gallery .gall_item').touchTouch();
+ });
+ $(document).ready(function(){
+     jQuery('#camera_wrap').camera({
+      loader: false,
+      pagination: true ,
+      minHeight: '500',
+      thumbnails: false,
+      height: '44.42708333333333%',
+      caption: true,
+      navigation: false,
+      fx: 'mosaic'
+    });
+    $('.gallery .gall-item').touchTouch();
+  });
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body>
+<div class="texture">
+<!--==============================
+              header
+=================================-->
+<header id="home" class="page">
+  <div class="navigation single-page-nav">
+    <div class="container_12">
+      <div class="grid_12">
+        <h1 class="logo">
+          <a href="index.html">Dimas Bayu Pangestu</a>
+        </h1>
+        <nav>
+          <ul>
+           <li><a href="#home" class="current">Home</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#experience">Experience</a></li>
+           <li><a href="#testimonials">Testimonials</a></li>
+           <li><a href="#contacts">Contacts</a></li>
+         </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div id="camera_wrap">
+    <div data-src="images/slide-1.jpg">
+      <div class="caption fadeIn">Graphic Designer <span class="bull"></span> Photographer  <span class="bull"></span> Software Engineering</div>
+    </div>
+    <div data-src="images/slide-2.jpg">
+      <div class="caption fadeIn">Impressive Designs, Suitable for Cool Projects</div>
+    </div>
+    <div data-src="images/slide-3.jpg">
+      <div class="caption fadeIn">Designs that Work for Your Benefits</div>
+    </div>
+  </div>
+</header>
+<!--=====================
+          Content
+======================-->
+<section class="content">
+  <div class="ic">Ini Website Portofolio, By Copyright Dimas Bayu</div>
+  <div class="pad-1">
+    <div class="container_12">
+      <div class="grid_12">
+        <h2>About Me
+          <span>THE BRIEF INTRODUCTION OF MYSELF</span>
+        </h2>
+        <p class="offset__1">Hello,I'm Dimas Bayu Pangestu,my nickname is Dibay. I was born in kota Depok on June 2,1999. I am a graduate of the software engineering High School at SMK PGRI 1 Depok. I Really like the world of technology and programming.I Have sports hobbies,namely clycling,football,basketball,and swimming. Besides that,my hobbies are photography and social organizations. I Was born in a well to do family,I Have 2 younger siblings and I am the frist child</p>
+        <img src="images/page-img_1.jpg" alt="" class="fleft">
+        <div class="extra_wrapper">
+          <div class="text-1">
+            Dimas Bayu Pangestu
+          </div>
+          <div class="text-2 color1">
+            <a href="#">Graphic Designer</a> &bull;
+            <a href="#">Photography</a> &bull;
+            <a href="#">Software Engineer</a>
+          </div>
+          <p>this is an article link about me,please <a rel="nofollow" href="http://www.kabarpublik.co.id/2021/dibay-siap-bertarung-di-bursa-piket.html?m=1" class="color1">click it</a>.  </p>
+          Address  : Jl Danau Maninjau VIII No.62,Depok,Jawabarat,Indonesia  <br>
+          Gender   : Male  <br>
+          Religion : Islam  <br>
+          Phone    : 0856 9298 8937  <br>
+		  Email	   : dimasbayudibay@gmail.com <br>
+          <a href="https://www.bit.ly/CV_dibay" class="btn">Download CV Resume</a>
+          <a href="https://www.bit.ly/portofolio_dibay" class="btn">Download Portofolio</a>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+<section id="portfolio" class="page">
+  <div class="container_18">
+    <div class="grid_18">
+      <h2 class="color2">My Portfolio</h2>
+      <div id="filters" class="button-group">
+        <a href="#" class="btn is-checked" data-filter="*">Show all</a>
+        <a href="#" class="btn" data-filter=".ill">Design</a>
+        <a href="#" class="btn" data-filter=".photo">Photography</a>
+        <a href="#" class="btn" data-filter=".design">Other Work Experience</a>
+      </div>
+      <div class="el gallery" id="isotope">
+        <div class="element ill">
+          <div>
+            <a href="images/big1.jpg" class="gall-item"><img src="images/gal_img1.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element ill">
+          <div>
+            <a href="images/big2.jpg" class="gall-item"><img src="images/gal_img2.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element ill">
+          <div>
+            <a href="images/big3.jpg" class="gall-item"><img src="images/gal_img3.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element ill">
+          <div>
+            <a href="images/big15.jpg" class="gall-item"><img src="images/big15.jpg" alt=""><span></span></a>
+          </div>
+		  </div>
+        <div class="element photo">
+          <div>
+            <a href="images/big5.jpg" class="gall-item"><img src="images/gal_img5.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element photo">
+          <div>
+            <a href="images/big9.jpg" class="gall-item"><img src="images/big9.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element photo">
+          <div>
+            <a href="images/big14.jpg" class="gall-item"><img src="images/big14.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element photo">
+          <div>
+            <a href="images/big10.jpg" class="gall-item"><img src="images/big10.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element design">
+          <div>
+            <a href="images/big6.jpg" class="gall-item"><img src="images/gal_img6.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element design">
+          <div>
+            <a href="images/big8.jpg" class="gall-item"><img src="images/big8.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+	        <div class="element design">
+          <div>
+            <a href="images/big12.jpg" class="gall-item"><img src="images/big12.jpg" alt=""><span></span></a>
+          </div>
+        </div>
+        <div class="element design">
+          <div>
+            <a href="images/big16.jpg" class="gall-item"><img src="images/big16.jpg" alt=""><span></span></a>
+          </div>
+        </div>		
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="skills" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Skills</h2>
+    </div>
+    <div class="grid_3">
+     <div style="clear:both"></div>
+        <div class="circle">
+          <input class="knob" data-angleOffset="0" value="80" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Graphic Designer</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset="0" value="90" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Communication</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset="0" value="90" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Photography</a></div>
+    </div>
+    <div class="grid_3">
+      <div class="circle">
+          <input class="knob" data-angleOffset="0" value="85" data-fgColor="#2a797b" data-bgColor="#3a556e" data-width="226" data-height="226" data-thickness=.2>
+        </div>
+      <div class="text-3"><a href="#">Software Engineering</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="experience" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Work Experience</h2>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>2017 - 2017</h3>
+            <time  datetime="2014-01-01" class="text-2">Januari<span>september</span></time>
+            <div class="ta__right">
+              <div class="text-2 color1">Courier Outle Ice Cream</div>
+              Delivering ice cream orders to customers
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>PT Alpen Food Industy</h3>
+            <div class="text-2">Courier</div>
+            <p>Every time I come home from school and on school holiday I work a side job to pay for my daily needs as an ice cream delivery courier to customer shops in the Depok city and surrouding areas. One day I was paid Seventy five Tousand.  </p>
+          </div>
+        </div>
+      </div>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>2017 - 2018</h3>
+            <time  datetime="2022-02-22" class="text-2">Oktober<span>Maret</span></time>
+            <div class="ta__right">
+              <div class="text-2 color1">Journalist</div>
+              Media Suarapers.com media indepent .
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>CV.Suarapers Independent</h3>
+            <div class="text-2">Journalist</div>
+            <p> - I was assigned as a journalist to find and write news about social society and government politic in Depok City area.</p>
+			<p>	- Become a Moderator in Journalist Training on the 2018 national press day by one of the journalists organization in the Depok City</p>
+			<p>	- Awarded as a young writer in 2018</p>
+          </div>
+        </div>
+      </div>
+      <div class="block-1">
+        <div class="grid_4 alpha">
+          <div class="block-1__left">
+            <h3>2018 - 2021</h3>
+            <time  datetime="2022-02-22" class="text-2">Mei<span>Juni</span></time>
+            <div class="ta__right">
+              <div class="text-2 color1">Staff Fungsional</div>
+              Media Suarapers.com media indepent .
+            </div>
+          </div>
+        </div>
+        <div class="grid_8 omega">
+          <div class="block-2__right">
+            <h3>Dinas Komunikasi dan Informatika Kota Depok</h3>
+            <div class="text-2">Staff Dinas</div>
+            <p> 1. Make a work schedule in the field for the next year
+				- Make a presentation of the official program in the submission of the 2018 regional development deliberation. - Create and enter official tax report. - Make monthly work reports for office managers and staff.</p>
+			<p>	2. In 2019, I was assigned as the person in charge of graphic design,both graphic design for social media publications and electronic publications such as running text and videotron. - Responsible for Depok city magazine making team.</p>
+			<p>	3. In 2020, I was assigned as IT Support and a Programmer - Repair office work equipment and improving the network in the office area as well as requests from outside - Create a silaris website project (advertorial service system and news release). This applicatuin was created to make it earsier for journalists to service print and online media publication fees - Maintance and monitor the application and website of the Depok City Government.</p>
+			<p> 4. In 2021, I was assigned as a Live Stream Operator. - Become a videographer and photographer - Control coverage using drones - Video editor
+</p>
+          </div>
+        </div>
+      </div>	  
+	  </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="testimonials" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2 class="color2">Testimonials</h2>
+    </div>
+    <div class="grid_4">
+      <blockquote class="bq1">
+        <img src="images/page-img_2.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text-2"><a href="#">Kolonel Inf Agus Isrok Mikroj S.I.P | Dandim 0508/Depok</a></div>
+          I really like the way dibay works. He is smart,intelligent and has high integrity in his work. "Good luck always Dibay !"
+        </div>
+      </blockquote>
+    </div>
+    <div class="grid_4">
+      <blockquote class="bq1">
+        <img src="images/page-img_3.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text-2"><a href="#">Agus Suprayitno S.Kom | Kepala Seksi IKP Diskominfo Depok</a></div>
+         I have known dibay since the frist time I entered diskominfo in 2018. He is smart,responsible and has high loyalty to his work.
+        </div>
+      </blockquote>
+    </div>
+    <div class="grid_4">
+      <blockquote class="bq1">
+        <img src="images/page-img_4.jpg" alt="">
+        <div class="extra_wrapper">
+          <div class="text-2"><a href="#">Sufari M.H | Kepala Kejaksaan Negeri Depok</a></div>
+          He always helps our agency to find depok in terms of publications and coordination. I really salute dibay.
+        </div>
+      </blockquote>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+<section id="contacts" class="page">
+  <div class="container_12">
+    <div class="grid_12">
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="grid_6">
+      <form id="contact-form">
+          <div class="contact-form-loader"></div>
+          <fieldset>
+            <label class="name">
+              <input type="text" name="name" placeholder="Name*:" value="" data-constraints="@Required @JustLetters"  />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid name.</span>
+            </label>
+            <label class="email">
+              <input type="text" name="email" placeholder="E-mail*:" value="" data-constraints="@Required @Email" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid email.</span>
+            </label>
+            <label class="phone">
+              <input type="text" name="phone" placeholder="Telephone:" value="" data-constraints="@Required @JustNumbers" />
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*This is not a valid phone.</span>
+            </label>
+            <label class="message">
+              <textarea name="message" placeholder="Message*:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+              <span class="empty-message">*This field is required.</span>
+              <span class="error-message">*The message is too short.</span>
+            </label>
+            <div>
+              <a href="#" class="btn" data-type="submit">submit </a>
+            </div>
+          </fieldset>
+          <div class="modal fade response-message">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  You message has been sent! We will be in touch soon.
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="grid_6">
+        Hello,this is contact me. <br>
+        16417 Depok,Jawa Barat,<br>
+        Telephone: +62 856 9298 8937<br>
+        E-mail: <a href="mailto:dimasbayudibay@gmail.com">dimasbayudibay@gmail.com</a>
+      </div>
+    <div class="clear"></div>
+  </div>
+  <div class="google-map-api">
+    <div id="map-canvas" class="gmap"></div>
+  </div>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="social-icons">
+        <a href="www.twitter.com/bayu_krennz" class="fa fa-twitter"></a>
+        <a href="www.facebook.com/bayu.krennn234" class="fa fa-facebook"></a>
+        <a href="mailto:dimasbayudibay@gmail.com" class="fa fa-google-plus"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+</section>
+<!--==============================
+              footer
+=================================-->
+</div>
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="copyright"> &copy; <span id="copyright-year">2022</span>| <a href="#">Privacy Policy </a> <br>
+       Website designed by <a href="http://www.instagram.com/diibay_p" rel="nofollow">diibay_p</a>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script>
+  // Prevent console.log from generating errors in IE for the purposes of the demo
+  if ( ! window.console ) console = { log: function(){} };
+  // The actual plugin
+  $('.single-page-nav').singlePageNav({
+      offset: $('.single-page-nav').outerHeight(),
+      filter: ':not(.external)',
+      updateHash: true,
+      beforeStart: function() {
+          console.log('begin scrolling');
+      },
+      onComplete: function() {
+          console.log('done scrolling');
+      }
+  });
+</script>
+<script type="text/javascript">
+          google_api_map_init();
+          function google_api_map_init(){
+            var map;
+            var coordData = new google.maps.LatLng(parseFloat(40.646197), parseFloat(-73.9724068,14));
+            var styleArray = [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#193341"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#29768a"
+            },
+            {
+                "lightness": -37
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#406d80"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#3e606f"
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.84
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "weight": 0.6
+            },
+            {
+                "color": "#1a3541"
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#2c5a71"
+            }
+        ]
+    }
+]
+            function initialize() {
+              var mapOptions = {
+                zoom: 13,
+                center: coordData,
+                scrollwheel: false,
+                styles: styleArray
+              }
+              var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+            google.maps.event.addDomListener(window, 'resize', function() {
+              map.setCenter(coordData);
+              var center = map.getCenter();
+            });
+          }
+            google.maps.event.addDomListener(window, "load", initialize);
+          }
+      </script>
+              <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
+      <script src="js/jquery.knob.js"></script>
+<script>
+  $(function($) {
+    $(".knob").knob({
+        change : function (value) {
+            //console.log("change : " + value);
+        },
+        release : function (value) {
+            //console.log(this.$.attr('value'));
+            console.log("release : " + value);
+        },
+        cancel : function () {
+            console.log("cancel : ", this);
+        },
+        /*format : function (value) {
+            return value + '%';
+        },*/
+        draw : function () {
+            // "tron" case
+            if(this.$.data('skin') == 'tron') {
+                this.cursorExt = 0.3;
+                var a = this.arc(this.cv)  // Arc
+                    , pa                   // Previous arc
+                    , r = 1;
+                this.g.lineWidth = this.lineWidth;
+                if (this.o.displayPrevious) {
+                    pa = this.arc(this.v);
+                    this.g.beginPath();
+                    this.g.strokeStyle = this.pColor;
+                    this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, pa.s, pa.e, pa.d);
+                    this.g.stroke();
+                }
+                this.g.beginPath();
+                this.g.strokeStyle = r ? this.o.fgColor : this.fgColor ;
+                this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, a.s, a.e, a.d);
+                this.g.stroke();
+                this.g.lineWidth = 2;
+                this.g.beginPath();
+                this.g.strokeStyle = this.o.fgColor;
+                this.g.arc( this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                this.g.stroke();
+                return false;
+            }
+        }
+    });
+    // Example of infinite knob, iPod click wheel
+    var v, up=0,down=0,i=0
+        ,$idir = $("div.idir")
+        ,$ival = $("div.ival")
+        ,incr = function() { i++; $idir.show().html("+").fadeOut(); $ival.html(i); }
+        ,decr = function() { i--; $idir.show().html("-").fadeOut(); $ival.html(i); };
+    $("input.infinite").knob(
+                        {
+                        min : 0
+                        , max : 20
+                        , stopper : false
+                        , change : function () {
+                                        if(v > this.cv){
+                                            if(up){
+                                                decr();
+                                                up=0;
+                                            }else{up=1;down=0;}
+                                        } else {
+                                            if(v < this.cv){
+                                                if(down){
+                                                    incr();
+                                                    down=0;
+                                                }else{down=1;up=0;}
+                                            }
+                                        }
+                                        v = this.cv;
+                                    }
+                        });
+    });
+</script>
+<script src="js/isotop_ini.js"></script>
+</body>
+</html> # dibaypang.github.io
